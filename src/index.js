@@ -5,7 +5,7 @@ const app = express();
 import "dotenv/config";
 import SearchRoute from "./routes/Searchmovie.js";
 
-const whitelist = ["http://localhost:8080"];
+const whitelist = ["http://localhost:8080","https://deepumandal.github.io"];
 
 const corsConfig = {
   origin: (origin, cb) => {
