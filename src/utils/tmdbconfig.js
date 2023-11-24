@@ -14,7 +14,7 @@ const searchMovieTMDB = async (movie) => {
       "&include_adult=false&language=en-US&page=1",
     TMDB_OPTIONS
   );
-  return data.data;
+  return data.data?.results;
 };
 
 export default searchMovieTMDB;
